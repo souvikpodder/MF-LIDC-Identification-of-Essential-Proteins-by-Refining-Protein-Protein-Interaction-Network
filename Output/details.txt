@@ -1,0 +1,100 @@
+At begin :
+node: 5093  Edge: 24743
+For k = 1
+ After node reduce :
+node: 1393  Edge: 14063
+For k = 1
+ After edge reduce :
+node: 985  Edge: 3907
+For k = 2
+ After node reduce :
+node: 1374  Edge: 13924
+For k = 2
+ After edge reduce :
+node: 969  Edge: 3847
+For k = 3
+ After node reduce :
+node: 1340  Edge: 13714
+For k = 3
+ After edge reduce :
+node: 931  Edge: 3733
+
+************************
+Essential Protein Count For k = 1 is:  198
+************************
+
+************************
+Non Essential Protein Count For k = 1 is:  787
+************************
+
+************************
+Essential Protein Count For k = 2 is:  194
+************************
+
+************************
+Non Essential Protein Count For k = 2 is:  775
+************************
+
+************************
+Essential Protein Count For k = 3 is:  187
+************************
+
+************************
+Non Essential Protein Count For k = 3 is:  744
+************************
+
+
+For Top 100 
+
+For TH1 77
+For TH2 77
+For TH3 76
+
+
+For Top 200 
+
+For TH1 153
+For TH2 150
+For TH3 143
+
+
+For K = 1
+
+Sensitivity = 0.3805970149253731
+Specificity = 0.9228070175438596
+NPV = 0.6787096774193548
+PPV = 0.7766497461928934
+ACC = 0.6893401015228426
+F - measure = 0.5108514190317196
+TP = 153
+FP = 44
+TN = 526
+FN = 249
+
+
+For K = 2
+
+Sensitivity = 0.3787878787878788
+Specificity = 0.9233511586452763
+NPV = 0.6780104712041884
+PPV = 0.7772020725388601
+ACC = 0.6893704850361198
+F - measure = 0.5093378607809848
+TP = 150
+FP = 43
+TN = 518
+FN = 246
+
+
+For K = 3
+
+Sensitivity = 0.3753280839895013
+Specificity = 0.9200743494423792
+NPV = 0.6753069577080492
+PPV = 0.7688172043010753
+ACC = 0.6852846401718582
+F - measure = 0.5044091710758378
+TP = 143
+FP = 43
+TN = 495
+FN = 238
